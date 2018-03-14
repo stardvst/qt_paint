@@ -4,7 +4,7 @@
 #include <QFrame>
 
 class QRadioButton;
-class QLineEdit;
+class RemoveFocusLineEdit;
 
 class Objects : public QFrame
 {
@@ -27,7 +27,7 @@ private:
 	QRadioButton *m_pRectRadioBtn { nullptr };
 	QRadioButton *m_pEllipseRadioBtn { nullptr };
 	QRadioButton *m_pPolygonRadioBtn { nullptr };
-	QLineEdit *m_pVertexLineEdit { nullptr };
+	RemoveFocusLineEdit *m_pVertexLineEdit { nullptr };
 };
 
 #endif
