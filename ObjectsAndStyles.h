@@ -1,0 +1,40 @@
+#ifndef OBJECTS_AND_STYLES
+#define OBJECTS_AND_STYLES
+
+enum class ObjectType
+{
+	LINE,
+	RECT,
+	ELLIPSE,
+	POLYGON
+};
+
+enum class PenStyle
+{
+	SOLID,
+	DASHED,
+	DOTTED,
+	DASH_DOTTED,
+	DASH_DOT_DOTTED
+};
+
+enum class BrushStyle
+{
+	SOLID,
+	DENSE,
+	DENSE1,
+	DENSE2,
+	DENSE3,
+	DENSE4,
+	DENSE5,
+	DENSE6,
+	DENSE7,
+	HOR,
+	VER,
+	CROSS,
+	BDIAG,
+	FDIAG,
+	DIAG_CROSS
+};
+
+#endif
